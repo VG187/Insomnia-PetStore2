@@ -1,0 +1,22 @@
+_id: ut_3e65d17a051942ea8a0b1f0a59476548
+type: UnitTest
+parentId: uts_96eb9e41cb11461db12d11eb54854cd0
+modified: 1696244651179
+created: 1696224846176
+requestId: req_4b925cfcb99646dfbf1e43fd1e4fff77
+name: User - Parameter Check
+code: |-
+  const response = await insomnia.send();
+  const body = JSON.parse(response.data);
+  const item = body[0];
+  //const username = body[0];
+
+  expect(body).to.not.be.an('array');
+  expect(body).to.be.an('object');
+  expect(body).to.have.property('username', 'Test321');
+  expect(body).to.have.property('firstName', 'Test');
+  expect(body).to.have.property('lastName', 'Test');
+  expect(body).to.have.property('email', 'Test@Test.com');
+  expect(body).to.have.property('password', 'Test321#');
+  expect(body).to.have.property('phone', '1234567890');
+  expect(body).to.have.property('userStatus');

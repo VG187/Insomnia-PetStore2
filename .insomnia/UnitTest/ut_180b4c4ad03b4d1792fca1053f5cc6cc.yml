@@ -1,0 +1,14 @@
+_id: ut_180b4c4ad03b4d1792fca1053f5cc6cc
+type: UnitTest
+parentId: uts_96eb9e41cb11461db12d11eb54854cd0
+modified: 1696224792482
+created: 1696224665185
+requestId: req_1dce062530ab4d58affd987b16956bed
+name: User Create - Parameter Check
+code: |
+  const response = await insomnia.send();
+  const body = JSON.parse(response.data);
+  const item = body[0];
+
+  expect(body).to.not.be.an('array');
+  expect(body).to.be.an('object');

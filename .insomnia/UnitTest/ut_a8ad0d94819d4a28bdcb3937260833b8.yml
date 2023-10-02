@@ -1,0 +1,21 @@
+_id: ut_a8ad0d94819d4a28bdcb3937260833b8
+type: UnitTest
+parentId: uts_96eb9e41cb11461db12d11eb54854cd0
+modified: 1696242909277
+created: 1696223200359
+requestId: req_87b24501a11c4f88bf043cbf396a6538
+name: Store - Parameter Check
+code: |-
+  const response = await insomnia.send();
+  const body = JSON.parse(response.data);
+  const item = body[0];
+
+  expect(body).to.not.be.an('array');
+  expect(body).to.be.an('object');
+  //expect(body).to.have.property('sold');
+  //expect(body).to.have.property('private');
+  expect(body).to.have.property('string');
+  //expect(body).to.have.property('unavailable');
+  //expect(body).to.have.property('pending');
+  expect(body).to.have.property('available');
+  //expect(body).to.have.property('hello');

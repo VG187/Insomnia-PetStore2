@@ -1,0 +1,23 @@
+_id: req_de5cda4ac5c743d887a85dc4599e2b7b
+type: Request
+parentId: fld_4577c02e404c4288bb93f3861ed02794
+modified: 1696220443741
+created: 1696220423200
+url: https://petstore.swagger.io/v2/pet/findByStatus?status=available
+name: Find By Status
+description: ""
+method: GET
+body: {}
+parameters: []
+headers:
+  - name: User-Agent
+    value: insomnia/2023.5.8
+authentication: {}
+metaSortKey: -1696220423200
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

@@ -1,0 +1,12 @@
+_id: ut_c1c0307ba8754b80a53f032503451f9e
+type: UnitTest
+parentId: uts_96eb9e41cb11461db12d11eb54854cd0
+modified: 1696222433769
+created: 1696220929811
+requestId: req_de5cda4ac5c743d887a85dc4599e2b7b
+name: Pet - Response Check Array
+code: |-
+  const response = await insomnia.send();
+  const body = JSON.parse(response.data);
+
+  expect(body).to.be.an('array');
