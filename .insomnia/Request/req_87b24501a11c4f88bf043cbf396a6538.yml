@@ -1,0 +1,23 @@
+_id: req_87b24501a11c4f88bf043cbf396a6538
+type: Request
+parentId: fld_48b47c4722434d1cb79c7ad5f4868e25
+modified: 1696222961588
+created: 1696222929231
+url: https://petstore.swagger.io/v2/store/inventory
+name: GET Inventory
+description: ""
+method: GET
+body: {}
+parameters: []
+headers:
+  - name: User-Agent
+    value: insomnia/2023.5.8
+authentication: {}
+metaSortKey: -1696222929231
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

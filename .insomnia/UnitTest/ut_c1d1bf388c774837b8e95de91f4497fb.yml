@@ -1,0 +1,12 @@
+_id: ut_c1d1bf388c774837b8e95de91f4497fb
+type: UnitTest
+parentId: uts_96eb9e41cb11461db12d11eb54854cd0
+modified: 1696223158100
+created: 1696223038872
+requestId: req_87b24501a11c4f88bf043cbf396a6538
+name: Store - Response Check Array
+code: |-
+  const response = await insomnia.send();
+  const body = JSON.parse(response.data);
+
+  expect(body).to.not.be.an('array');

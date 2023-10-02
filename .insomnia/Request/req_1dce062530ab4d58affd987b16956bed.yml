@@ -1,0 +1,37 @@
+_id: req_1dce062530ab4d58affd987b16956bed
+type: Request
+parentId: fld_2fbac0a7ff1544a998788631b2ed21cf
+modified: 1696224351678
+created: 1696224135397
+url: https://petstore.swagger.io/v2/user
+name: Create User
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: |-
+    {
+      "id": 0,
+      "username": "Test321",
+      "firstName": "Test",
+      "lastName": "Test",
+      "email": "Test@Test.com",
+      "password": "Test321#",
+      "phone": "1234567890",
+      "userStatus": 1
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+  - name: User-Agent
+    value: insomnia/2023.5.8
+authentication: {}
+metaSortKey: -1696224135397
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

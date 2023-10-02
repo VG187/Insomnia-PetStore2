@@ -1,0 +1,10 @@
+_id: ut_300811e1ac1241c98f023129292a59e1
+type: UnitTest
+parentId: uts_96eb9e41cb11461db12d11eb54854cd0
+modified: 1696222876953
+created: 1696220512660
+requestId: req_de5cda4ac5c743d887a85dc4599e2b7b
+name: Pet  - Returns 200
+code: |-
+  const response1 = await insomnia.send();
+  expect(response1.status).to.equal(200);

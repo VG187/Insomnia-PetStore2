@@ -1,0 +1,27 @@
+_id: req_4b925cfcb99646dfbf1e43fd1e4fff77
+type: Request
+parentId: fld_2fbac0a7ff1544a998788631b2ed21cf
+modified: 1696224423203
+created: 1696223972125
+url: https://petstore.swagger.io/v2/user/Test321
+name: GET User BY Username
+description: ""
+method: GET
+body: {}
+parameters:
+  - id: pair_342a461a7ecc49f397aaace0b862d866
+    name: username
+    value: Test321
+    description: ""
+headers:
+  - name: User-Agent
+    value: insomnia/2023.5.8
+authentication: {}
+metaSortKey: -1696223972125
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

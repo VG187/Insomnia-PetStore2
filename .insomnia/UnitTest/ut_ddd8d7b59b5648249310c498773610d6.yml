@@ -1,0 +1,13 @@
+_id: ut_ddd8d7b59b5648249310c498773610d6
+type: UnitTest
+parentId: uts_96eb9e41cb11461db12d11eb54854cd0
+modified: 1696222827960
+created: 1696222807329
+requestId: req_de5cda4ac5c743d887a85dc4599e2b7b
+name: Pet - Log To Console
+code: |-
+  const response = await insomnia.send();
+  const body = JSON.parse(response.data);
+  const item = body[0];
+
+  console.log(item);
