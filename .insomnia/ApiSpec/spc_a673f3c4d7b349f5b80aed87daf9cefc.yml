@@ -1,7 +1,7 @@
 _id: spc_a673f3c4d7b349f5b80aed87daf9cefc
 type: ApiSpec
 parentId: wrk_d5535301150f4e54865c66fda7230c5f
-modified: 1696220273994
+modified: 1696244063998
 created: 1696220273974
 fileName: Swagger Petstore 1.0.6
 contents: '{"swagger":"2.0","info":{"description":"This is a sample server

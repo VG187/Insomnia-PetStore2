@@ -1,8 +1,16 @@
 _id: wrk_d5535301150f4e54865c66fda7230c5f
 type: Workspace
 parentId: null
-modified: 1696220273970
+modified: 1696244064001
 created: 1696220273970
 name: Swagger Petstore 1.0.6
-description: ""
+description: >-
+  # **Description**
+
+  This is a tyest API to used while Insomnia goes through it's POC/POV phase.
+
+
+  # **Test Cases**
+
+  Test cases using JavaScritp is added under the Test tab, a test suite for each API needs to be created so the test cases/unit tests are split for each API.
 scope: design
